@@ -52,10 +52,5 @@ public class SpringBoot2Angular8ExampleApplication {
 		
 		return bean;
 	}
-	
-	
-	
-	
-	
 
 }

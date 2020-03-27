@@ -42,6 +42,4 @@ public class Car {
 		return "Car [id=" + id + ", name=" + name + "]";
 	}
 	
-	
-	
 }

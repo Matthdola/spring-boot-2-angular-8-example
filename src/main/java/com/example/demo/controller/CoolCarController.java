@@ -11,7 +11,7 @@ import com.example.demo.model.Car;
 import com.example.demo.model.CarRepository;
 
 
-@RestController
+// @RestController
 public class CoolCarController {
 	private CarRepository repository;
 	
@@ -20,8 +20,8 @@ public class CoolCarController {
 		this.repository = repo;
 	}
 	
-	@GetMapping("/cool-cars")
-	@CrossOrigin(origins="http://localhost:4200")
+	// @GetMapping("/cool-cars")
+	// @CrossOrigin(origins="http://localhost:4200")
 	public Collection<Car> coolCars() {
 		return repository.findAll().stream()
 				.filter(this::isCool)
